@@ -1,0 +1,40 @@
+
+a:link, a:visited,  a:hover, a:active{
+    color: #fff;
+    text-decoration: none;
+}
+.navbar{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.textResponse{
+ background-color:#c2fcb3;
+
+}
+.textSend{
+  background-color: #d2d6d9;
+  
+}
+.margin-card{
+  margin-bottom: 10px;
+}
+.barraSend{
+  position: sticky;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  background-color: white;
+}
+.separetor {
+  height: 20px;
+}
+@media (max-width: 575px) {
+  .navbar{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px 20px;
+  }
+}
