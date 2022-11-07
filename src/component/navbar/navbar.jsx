@@ -36,13 +36,10 @@ export default function Navbar() {
           }}
         >
           <BottomNavigationAction
-            label="Soporte"
-            icon={<SupportAgentIcon />}
-          ></BottomNavigationAction>
-          <BottomNavigationAction
             label="Sentimientos"
             icon={<FavoriteIcon />}
-          />
+          ></BottomNavigationAction>
+          <BottomNavigationAction label="Soporte" icon={<SupportAgentIcon />} />
           <BottomNavigationAction label="Venta" icon={<AttachMoneyIcon />} />
         </BottomNavigation>
         {/*/</Box></Paper>*/}

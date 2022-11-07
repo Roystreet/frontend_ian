@@ -10,19 +10,37 @@ a:link, a:visited,  a:hover, a:active{
   width: 100%;
 }
 .textResponse{
- background-color:#c2fcb3;
+ background-color: #d2d6d9;;
+ display: flex;
+ justify-content: flex-start;
+ height: auto;
 
 }
 .textSend{
-  background-color: #d2d6d9;
+  background-color: #c2fcb3;
+  display: flex;
+  justify-content: flex-end;
+  height: auto;
+  
   
 }
 .margin-card{
   margin-bottom: 10px;
+ /* max-width: 400px;*/
+}
+.cardsend{
+  display: flex;
+  justify-content: flex-end;
+}
+.cardresponse{
+  display: flex;
+  justify-content: flex-start;
 }
 .barraSend{
-  position: sticky;
-  bottom: 0px;
+ /*position: fixed;*/
+ /* bottom: 0px; */
+ margin-top: 10px;
+ margin-bottom: 10px;
   display: flex;
   justify-content: center;
   width: 100vw;
@@ -31,10 +49,42 @@ a:link, a:visited,  a:hover, a:active{
 .separetor {
   height: 20px;
 }
+.feeling {
+   background: linear-gradient(71.48deg, #FFD60A 0%, #32D74B 62.9%);
+   width: 375px;
+   height: 64px;
+   color: white;
+   border-radius: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.container-feeling{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+
+}
+.boxchat{
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.center-class {
+  display: flex;
+  justify-content: center;
+}
+.margen{
+  margin-top:30px;
+}
 @media (max-width: 575px) {
   .navbar{
     flex-direction: column;
     align-items: center;
     gap: 20px 20px;
   }
+  
 }

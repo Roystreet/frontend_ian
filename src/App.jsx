@@ -16,7 +16,6 @@ function App() {
       <Navbar></Navbar>
       <div className="separetor"></div>
       <Divider></Divider>
-      <div className="separetor"></div>
       <Routes>
         <Route path="/" element={<Feeling />}></Route>
         <Route
