@@ -37,7 +37,7 @@ export default function CrossSold() {
 
   return (
     <>
-      <div className="containerMessage">
+      <div className="container-member">
         <Paper
           sx={{
             marginTop: "0px",
@@ -57,19 +57,18 @@ export default function CrossSold() {
             variant="button"
             sx={{ fontSize: "30px", fontWeight: "bold" }}
           >
-            Soporte
+            Ventas
           </Typography>
         </Paper>
-
+      </div>
+      <div className="container-message-total">
         {messagee.current &&
           messagee.current.map((data) => {
             return <Text text={data.coment} type={data.type}></Text>;
           })}
       </div>
-      <Paper
-        sx={{ position: "fixed", bottom: 0, left: 0, right: 0 }}
-        elevation={20}
-      >
+
+      <Paper sx={{ height: "10vh", paddingTop: "20px" }} elevation={20}>
         <div className="barraSend">
           <div>
             <TextField

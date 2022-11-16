@@ -13,9 +13,10 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar></Navbar>
+      {/* <Navbar></Navbar>
       <div className="separetor"></div>
       <Divider></Divider>
+    */}
       <Routes>
         <Route path="/" element={<Feeling />}></Route>
         <Route

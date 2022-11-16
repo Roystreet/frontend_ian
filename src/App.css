@@ -45,7 +45,28 @@ a:link, a:visited,  a:hover, a:active{
   justify-content: center;
   width: 100vw;
   background-color: white;
+  height: 10vh;
 }
+.container-member{
+  height: 15vh;
+}
+.container-message-total{
+  height:65vh;
+  margin-bottom: 10px;
+  overflow-y: scroll;
+  padding-bottom: 10px;
+}
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgba(180,180,180,0.5);
+}
+
 .separetor {
   height: 20px;
 }
@@ -86,5 +107,7 @@ a:link, a:visited,  a:hover, a:active{
     align-items: center;
     gap: 20px 20px;
   }
+  
+
   
 }
