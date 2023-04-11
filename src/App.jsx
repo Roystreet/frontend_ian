@@ -4,7 +4,7 @@ import reactLogo from "./assets/react.svg";
 import "./App.css";
 import Navbar from "./component/navbar/navbar";
 import Crosssold from "./pages/crosssold/crosssold";
-import Feeling from "./pages/feeling/feeling";
+import Questions from "./pages/Questions/questions";
 import InteractiveBot from "./pages/interactivebot/interactivebot";
 import { Divider } from "@mui/material";
 
@@ -17,7 +17,7 @@ function App() {
       <div className="separetor"></div>
       <Divider></Divider>
       <Routes>
-        <Route path="/" element={<Feeling />}></Route>
+        <Route path="/" element={<Questions />}></Route>
         <Route
           path="/botinteractivo"
           element={<InteractiveBot Feeling />}

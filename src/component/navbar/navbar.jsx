@@ -36,7 +36,7 @@ export default function Navbar() {
           }}
         >
           <BottomNavigationAction
-            label="Sentimientos"
+            label="Questions"
             icon={<FavoriteIcon />}
           ></BottomNavigationAction>
           <BottomNavigationAction label="Soporte" icon={<SupportAgentIcon />} />
